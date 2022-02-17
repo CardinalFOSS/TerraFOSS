@@ -13,7 +13,7 @@ namespace TerraFOSS.Items
 
 		public override void SetDefaults() 
 		{
-			item.damage = 150;
+			item.damage = 200;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
