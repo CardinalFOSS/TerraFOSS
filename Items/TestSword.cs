@@ -1,9 +1,11 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerraFOSS.Items
+namespace TerraFOSS.Items // TerraFOSS is the mod name
+                          // Items is the folder that this file is in
 {
-	public class TestSword : ModItem
+	public class TestSword : ModItem // testsword is subclass which has properties
+									 // moditem is class that amongus belongs to
 	{
 		public override void SetStaticDefaults() 
 		{
@@ -11,20 +13,22 @@ namespace TerraFOSS.Items
 			Tooltip.SetDefault("This is a basic modded sword.");
 		}
 
-		public override void SetDefaults() 
+		public override void SetDefaults() // place stats here
 		{
-			item.damage = 150;
-			item.melee = true;
-			item.width = 40;
-			item.height = 40;
-			item.useTime = 20;
-			item.useAnimation = 20;
+			item.damage = 150; // dmg
+			item.melee = true; // this is a melee weapon (stat?)
+			item.width = 40; // width of the sword on screen (pixels?)
+			item.height = 40; // height (pixels?)
+			item.useTime = 20; // how long it takes to use weapon again
+			item.useAnimation = 20; // how long it takes for use animation to end
 			item.useStyle = 1;
-			item.knockBack = 6;
-			item.value = 10000;
+			item.knockBack = 6; // kb
+			item.value = 10000; 
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.autoReuse = true; // autoswing (hold to attack)
+			item.shoot = mod.ProjectileType("amongus"); // check projectiles
+            item.shootSpeed = 5f; // speed of projectile
 		}
 
 		public override void AddRecipes() 
