@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerraFOSS.Items // TerraFOSS is the mod name
+namespace TerraFOSS.Items.Weapons // TerraFOSS is the mod name
                           // Items is the folder that this file is in
 {
 	public class TestSword : ModItem // testsword is subclass which has properties
