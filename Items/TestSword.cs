@@ -28,7 +28,7 @@ namespace TerraFOSS.Items // TerraFOSS is the mod name
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true; // autoswing (hold to attack)
 			item.shoot = mod.ProjectileType("amongus"); // check projectiles
-            item.shootSpeed = 5f; // speed of projectile
+            item.shootSpeed = 10f; // speed of projectile
 		}
 
 		public override void AddRecipes() 
