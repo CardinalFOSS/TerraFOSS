@@ -5,28 +5,28 @@ using Terraria.ModLoader;
 
 namespace TerraFOSS.Items.Armor
 {
-    [AutoloadEquip(EquipType.Body)]
+    [AutoloadEquip(EquipType.Body)] // equip it on the body
     public class MaidDress : ModItem
     {
         public override void SetDefaults()
         {
             item.width = 18;
             item.height = 18;
-            item.value = 10;
+            item.value = 10; // how much you can sell it for
             item.rare = 2;
-            item.defense = 9999;
+            item.defense = 9999; // defense stat
         }
 
         public override void UpdateEquip(Player player)
         {
-            
+            // put armor set buffs here etc.
         }
         public override void AddRecipes() //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.DirtBlock, 1);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this);
+            recipe.AddIngredient(ItemID.DirtBlock, 1); // 1 dirt = this
+            recipe.AddTile(TileID.WorkBenches); // make at workbench
+            recipe.SetResult(this); // makes this item
             recipe.AddRecipe();
         }
     }
