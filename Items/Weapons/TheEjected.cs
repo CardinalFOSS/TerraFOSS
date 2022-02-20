@@ -5,13 +5,13 @@ using TerraFOSS.Items.Misc;
 namespace TerraFOSS.Items.Weapons // TerraFOSS is the mod name
                           // Items is the folder that this file is in
 {
-	public class TestSword : ModItem // testsword is subclass which has properties
+	public class TheEjected : ModItem // testsword is subclass which has properties
 									 // moditem is class that amongus belongs to
 	{
 		public override void SetStaticDefaults() 
 		{
 			// DisplayName.SetDefault("TestSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("This is a basic modded sword.");
+			Tooltip.SetDefault("You've been ejected.");
 		}
 
 		public override void SetDefaults() // place stats here
