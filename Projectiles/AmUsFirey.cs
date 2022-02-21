@@ -18,7 +18,6 @@ namespace TerraFOSS.Projectiles
             projectile.aiStyle = 23;
             projectile.friendly = true;
             projectile.ranged = true;
-            aiType = ProjectileID.Flames;
             projectile.penetrate = 6;
             projectile.timeLeft = 160;
         }
