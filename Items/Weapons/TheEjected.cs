@@ -16,7 +16,7 @@ namespace TerraFOSS.Items.Weapons // TerraFOSS is the mod name
 
 		public override void SetDefaults() // place stats here
 		{
-			item.damage = 60; // dmg
+			item.damage = 55; // dmg
 			item.melee = true; // this is a melee weapon (stat?)
 			item.width = 40; // width of the sword on screen (pixels?)
 			item.height = 40; // height (pixels?)

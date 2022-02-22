@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using System;
+using Microsoft.Xna.Framework;
 
 namespace TerraFOSS.Items.Armor
 {
@@ -19,7 +21,7 @@ namespace TerraFOSS.Items.Armor
 
         public override void UpdateEquip(Player player)
         {
-            // put armor set buffs here etc.
+            // place armor set buffs here
         }
         public override void AddRecipes() //How to craft this item
         {

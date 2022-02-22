@@ -34,7 +34,7 @@ namespace TerraFOSS.Projectiles // TerraFOSS is the mod name
 		// Additional hooks/methods here.
 		public override void PostAI()
 		{
-			projectile.tileCollide = true; // will not die when hitting tiles
+			projectile.tileCollide = true; // disappears after hitting tiles
 		}
 	}
 }

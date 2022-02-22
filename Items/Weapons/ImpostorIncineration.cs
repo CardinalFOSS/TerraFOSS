@@ -9,7 +9,7 @@ namespace TerraFOSS.Items.Weapons
     {
         public override void SetDefaults()
         {
-            item.damage = 25;
+            item.damage = 35;
             item.ranged = true;
             item.width = 45;
             item.height = 17;

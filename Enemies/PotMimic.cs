@@ -23,7 +23,7 @@ namespace TerraFOSS.Enemies
 			npc.lifeMax = 1200; // health it spawns with
             npc.value = 1500f; // coins it drops on death
             npc.aiStyle = 25; // mimic ai
-            npc.knockBackResist = 1f;
+            npc.knockBackResist = 10f;
         }
     }
 }
