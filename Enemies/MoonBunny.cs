@@ -10,6 +10,8 @@ namespace TerraFOSS.Enemies
         {   //Seed is Kelvin and kelvin respectively (case sensitive)
             // use Main.NewText(WorldGen._lastSeed, Color.Lime); to get seed
             // place it in an equip hook or something
+
+            // NOTE, YOU CANNOT MANUALLY SET SEEDS WHEN CREATING A WORLD UNLESS YOU HAVE EXPERIMENTAL FEATURES ON
             if ((WorldGen._lastSeed == 2023951915) || (WorldGen._lastSeed == 957089475))
             {
                 return SpawnCondition.OverworldDay.Chance * 0.1f;
