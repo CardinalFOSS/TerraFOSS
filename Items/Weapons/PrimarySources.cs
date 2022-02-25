@@ -8,7 +8,7 @@ using TerraFOSS.Items.Misc;
 
 namespace TerraFOSS.Items.Weapons
 {
-    public class KalamarasReading : ModItem
+    public class PrimarySources : ModItem
     {
         public override void SetDefaults()
         {
@@ -40,7 +40,7 @@ namespace TerraFOSS.Items.Weapons
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("It's all connected!");
-            DisplayName.SetDefault("Readings");
+            DisplayName.SetDefault("Primary Sources");
         }
         public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
         {
