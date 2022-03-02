@@ -11,4 +11,6 @@ obj/TerraFOSS.csproj.nuget.dgspec.json
 obj/TerraFOSS.csproj.nuget.g.props
 obj/TerraFOSS.csproj.nuget.g.targets
 TerraFOSS.sln
-mono_crash.11a67480d0.0.json
+bin
+obj
+.vs
